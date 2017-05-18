@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hartalex/excel-report-creator.svg?branch=master)](https://travis-ci.org/hartalex/excel-report-creator)
+[Cannot be built by Travis - Due to Microsoft.Office.interop Dependency]
 # Excel Report Creator
 
 Queries a SQL database and creates an Excel file containing the query data.
