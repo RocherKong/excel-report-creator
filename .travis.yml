@@ -1,8 +1,10 @@
 language: csharp
 solution: ExcelReportCreator.sln
-before_install:
-    - git clone --depth=50 --branch=master https://github.com/hartalex/cli-utility.git hartalex/cli-utility
-    - cd hartalex/cli-utility
+script:
+    - git clone --depth=50 --branch=master https://github.com/hartalex/cli-utility.git ~/hartalex/cli-utility
+    - cd ~/hartalex/cli-utility
     - xbuild /p:Configuration=Release CIUtility.sln
+    - cd ~/hartalex/excel-report-creator
+    - xbuild /p:Configuration=Release ExcelReportCreator.sln
 notifications:
     slack: hartcode:GqPCaLxnPqXfPJBMjJbEvG81
