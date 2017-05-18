@@ -5,6 +5,6 @@ before_script:
     - cd ~/build/hartalex/cli-utility
     - nuget restore CLIUtility.sln
     - xbuild /p:Configuration=Release CLIUtility.sln
-    - cd ~/build
+    - cd ~/build/hartalex/excel-report-creator
 notifications:
     slack: hartcode:GqPCaLxnPqXfPJBMjJbEvG81
