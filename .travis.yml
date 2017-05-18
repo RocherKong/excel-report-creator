@@ -1,4 +1,4 @@
 language: csharp
-solution: CLIUtility.sln
+solution: ExcelReportCreator.sln
 notifications:
     slack: hartcode:GqPCaLxnPqXfPJBMjJbEvG81
