@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="CLIUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~\build\hartalex\cli-utility\CLIUtility\bin\Release\CLIUtility.dll</HintPath>
+      <HintPath>/home/travis/build/hartalex/cli-utility/CLIUtility/bin/Release/CLIUtility.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
