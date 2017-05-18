@@ -1,0 +1,4 @@
+language: csharp
+solution: CLIUtility.sln
+notifications:
+    slack: hartcode:GqPCaLxnPqXfPJBMjJbEvG81
